@@ -6,6 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C536C6D12D9DF464003F5180 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C536C6CF2D9DF464003F5180 /* main.swift */; };
+		C536C6D82D9DF50A003F5180 /* BadEmployeeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C536C6D72D9DF509003F5180 /* BadEmployeeManager.swift */; };
+		C536C6DD2D9E0373003F5180 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = C536C6DC2D9E0369003F5180 /* Employee.swift */; };
+		C536C6DF2D9E0697003F5180 /* SalaryCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C536C6DE2D9E0693003F5180 /* SalaryCalculator.swift */; };
+		C536C6E12D9E07B2003F5180 /* EmployeeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C536C6E02D9E07B0003F5180 /* EmployeeRepository.swift */; };
+		C536C6E32D9E07D3003F5180 /* EmployeeReportGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C536C6E22D9E07D1003F5180 /* EmployeeReportGenerator.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		C536C6C12D9DF377003F5180 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -19,16 +28,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		C536C6C32D9DF377003F5180 /* SOLIDCource */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SOLIDCource; sourceTree = BUILT_PRODUCTS_DIR; };
+		C536C6C32D9DF377003F5180 /* SOLIDCourse */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SOLIDCourse; sourceTree = BUILT_PRODUCTS_DIR; };
+		C536C6CF2D9DF464003F5180 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C536C6D72D9DF509003F5180 /* BadEmployeeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadEmployeeManager.swift; sourceTree = "<group>"; };
+		C536C6DC2D9E0369003F5180 /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		C536C6DE2D9E0693003F5180 /* SalaryCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalaryCalculator.swift; sourceTree = "<group>"; };
+		C536C6E02D9E07B0003F5180 /* EmployeeRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeRepository.swift; sourceTree = "<group>"; };
+		C536C6E22D9E07D1003F5180 /* EmployeeReportGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeReportGenerator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		C536C6C52D9DF377003F5180 /* SOLIDCource */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SOLIDCource;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		C536C6C02D9DF377003F5180 /* Frameworks */ = {
@@ -44,25 +51,94 @@
 		C536C6BA2D9DF377003F5180 = {
 			isa = PBXGroup;
 			children = (
-				C536C6C52D9DF377003F5180 /* SOLIDCource */,
 				C536C6C42D9DF377003F5180 /* Products */,
+				C536C6D02D9DF464003F5180 /* SOLIDCourse */,
 			);
 			sourceTree = "<group>";
 		};
 		C536C6C42D9DF377003F5180 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C536C6C32D9DF377003F5180 /* SOLIDCource */,
+				C536C6C32D9DF377003F5180 /* SOLIDCourse */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		C536C6D02D9DF464003F5180 /* SOLIDCourse */ = {
+			isa = PBXGroup;
+			children = (
+				C536C6D22D9DF46A003F5180 /* SRP */,
+				C536C6D32D9DF473003F5180 /* OCP */,
+				C536C6D42D9DF47B003F5180 /* LSP */,
+				C536C6D52D9DF482003F5180 /* ISP */,
+				C536C6D62D9DF48A003F5180 /* DIP */,
+				C536C6CF2D9DF464003F5180 /* main.swift */,
+			);
+			path = SOLIDCourse;
+			sourceTree = "<group>";
+		};
+		C536C6D22D9DF46A003F5180 /* SRP */ = {
+			isa = PBXGroup;
+			children = (
+				C536C6D92D9DF576003F5180 /* Wrong */,
+				C536C6DB2D9DF597003F5180 /* Correct */,
+			);
+			path = SRP;
+			sourceTree = "<group>";
+		};
+		C536C6D32D9DF473003F5180 /* OCP */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OCP;
+			sourceTree = "<group>";
+		};
+		C536C6D42D9DF47B003F5180 /* LSP */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LSP;
+			sourceTree = "<group>";
+		};
+		C536C6D52D9DF482003F5180 /* ISP */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ISP;
+			sourceTree = "<group>";
+		};
+		C536C6D62D9DF48A003F5180 /* DIP */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DIP;
+			sourceTree = "<group>";
+		};
+		C536C6D92D9DF576003F5180 /* Wrong */ = {
+			isa = PBXGroup;
+			children = (
+				C536C6D72D9DF509003F5180 /* BadEmployeeManager.swift */,
+			);
+			path = Wrong;
+			sourceTree = "<group>";
+		};
+		C536C6DB2D9DF597003F5180 /* Correct */ = {
+			isa = PBXGroup;
+			children = (
+				C536C6E22D9E07D1003F5180 /* EmployeeReportGenerator.swift */,
+				C536C6E02D9E07B0003F5180 /* EmployeeRepository.swift */,
+				C536C6DE2D9E0693003F5180 /* SalaryCalculator.swift */,
+				C536C6DC2D9E0369003F5180 /* Employee.swift */,
+			);
+			path = Correct;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C536C6C22D9DF377003F5180 /* SOLIDCource */ = {
+		C536C6C22D9DF377003F5180 /* SOLIDCourse */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C536C6CA2D9DF377003F5180 /* Build configuration list for PBXNativeTarget "SOLIDCource" */;
+			buildConfigurationList = C536C6CA2D9DF377003F5180 /* Build configuration list for PBXNativeTarget "SOLIDCourse" */;
 			buildPhases = (
 				C536C6BF2D9DF377003F5180 /* Sources */,
 				C536C6C02D9DF377003F5180 /* Frameworks */,
@@ -72,14 +148,11 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				C536C6C52D9DF377003F5180 /* SOLIDCource */,
-			);
-			name = SOLIDCource;
+			name = SOLIDCourse;
 			packageProductDependencies = (
 			);
 			productName = SOLIDCource;
-			productReference = C536C6C32D9DF377003F5180 /* SOLIDCource */;
+			productReference = C536C6C32D9DF377003F5180 /* SOLIDCourse */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -97,7 +170,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C536C6BE2D9DF377003F5180 /* Build configuration list for PBXProject "SOLIDCource" */;
+			buildConfigurationList = C536C6BE2D9DF377003F5180 /* Build configuration list for PBXProject "SOLIDCourse" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -111,7 +184,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C536C6C22D9DF377003F5180 /* SOLIDCource */,
+				C536C6C22D9DF377003F5180 /* SOLIDCourse */,
 			);
 		};
 /* End PBXProject section */
@@ -121,6 +194,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C536C6E12D9E07B2003F5180 /* EmployeeRepository.swift in Sources */,
+				C536C6D82D9DF50A003F5180 /* BadEmployeeManager.swift in Sources */,
+				C536C6DD2D9E0373003F5180 /* Employee.swift in Sources */,
+				C536C6E32D9E07D3003F5180 /* EmployeeReportGenerator.swift in Sources */,
+				C536C6D12D9DF464003F5180 /* main.swift in Sources */,
+				C536C6DF2D9E0697003F5180 /* SalaryCalculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +351,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C536C6BE2D9DF377003F5180 /* Build configuration list for PBXProject "SOLIDCource" */ = {
+		C536C6BE2D9DF377003F5180 /* Build configuration list for PBXProject "SOLIDCourse" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C536C6C82D9DF377003F5180 /* Debug */,
@@ -281,7 +360,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C536C6CA2D9DF377003F5180 /* Build configuration list for PBXNativeTarget "SOLIDCource" */ = {
+		C536C6CA2D9DF377003F5180 /* Build configuration list for PBXNativeTarget "SOLIDCourse" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C536C6CB2D9DF377003F5180 /* Debug */,
