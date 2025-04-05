@@ -13,6 +13,12 @@
 		C536C6DF2D9E0697003F5180 /* SalaryCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C536C6DE2D9E0693003F5180 /* SalaryCalculator.swift */; };
 		C536C6E12D9E07B2003F5180 /* EmployeeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C536C6E02D9E07B0003F5180 /* EmployeeRepository.swift */; };
 		C536C6E32D9E07D3003F5180 /* EmployeeReportGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C536C6E22D9E07D1003F5180 /* EmployeeReportGenerator.swift */; };
+		C536C72D2DA0A13C003F5180 /* BadDiscountCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C536C72C2DA0A137003F5180 /* BadDiscountCalculator.swift */; };
+		C536C7322DA0C672003F5180 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = C536C7312DA0C672003F5180 /* Product.swift */; };
+		C536C7342DA0C6BD003F5180 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = C536C7332DA0C6BA003F5180 /* Book.swift */; };
+		C536C7362DA0C6F6003F5180 /* Electronic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C536C7352DA0C6F2003F5180 /* Electronic.swift */; };
+		C536C7382DA0C747003F5180 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = C536C7372DA0C745003F5180 /* Food.swift */; };
+		C536C73A2DA0C7CB003F5180 /* DiscountCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C536C7392DA0C7CA003F5180 /* DiscountCalculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +41,12 @@
 		C536C6DE2D9E0693003F5180 /* SalaryCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalaryCalculator.swift; sourceTree = "<group>"; };
 		C536C6E02D9E07B0003F5180 /* EmployeeRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeRepository.swift; sourceTree = "<group>"; };
 		C536C6E22D9E07D1003F5180 /* EmployeeReportGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeReportGenerator.swift; sourceTree = "<group>"; };
+		C536C72C2DA0A137003F5180 /* BadDiscountCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadDiscountCalculator.swift; sourceTree = "<group>"; };
+		C536C7312DA0C672003F5180 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		C536C7332DA0C6BA003F5180 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		C536C7352DA0C6F2003F5180 /* Electronic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Electronic.swift; sourceTree = "<group>"; };
+		C536C7372DA0C745003F5180 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		C536C7392DA0C7CA003F5180 /* DiscountCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountCalculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +101,8 @@
 		C536C6D32D9DF473003F5180 /* OCP */ = {
 			isa = PBXGroup;
 			children = (
+				C536C72B2DA0A128003F5180 /* Wrong */,
+				C536C72E2DA0C554003F5180 /* Correct */,
 			);
 			path = OCP;
 			sourceTree = "<group>";
@@ -129,6 +143,26 @@
 				C536C6E02D9E07B0003F5180 /* EmployeeRepository.swift */,
 				C536C6DE2D9E0693003F5180 /* SalaryCalculator.swift */,
 				C536C6DC2D9E0369003F5180 /* Employee.swift */,
+			);
+			path = Correct;
+			sourceTree = "<group>";
+		};
+		C536C72B2DA0A128003F5180 /* Wrong */ = {
+			isa = PBXGroup;
+			children = (
+				C536C72C2DA0A137003F5180 /* BadDiscountCalculator.swift */,
+			);
+			path = Wrong;
+			sourceTree = "<group>";
+		};
+		C536C72E2DA0C554003F5180 /* Correct */ = {
+			isa = PBXGroup;
+			children = (
+				C536C7312DA0C672003F5180 /* Product.swift */,
+				C536C7392DA0C7CA003F5180 /* DiscountCalculator.swift */,
+				C536C7372DA0C745003F5180 /* Food.swift */,
+				C536C7352DA0C6F2003F5180 /* Electronic.swift */,
+				C536C7332DA0C6BA003F5180 /* Book.swift */,
 			);
 			path = Correct;
 			sourceTree = "<group>";
@@ -197,9 +231,15 @@
 				C536C6E12D9E07B2003F5180 /* EmployeeRepository.swift in Sources */,
 				C536C6D82D9DF50A003F5180 /* BadEmployeeManager.swift in Sources */,
 				C536C6DD2D9E0373003F5180 /* Employee.swift in Sources */,
+				C536C7322DA0C672003F5180 /* Product.swift in Sources */,
 				C536C6E32D9E07D3003F5180 /* EmployeeReportGenerator.swift in Sources */,
+				C536C7362DA0C6F6003F5180 /* Electronic.swift in Sources */,
+				C536C73A2DA0C7CB003F5180 /* DiscountCalculator.swift in Sources */,
+				C536C7342DA0C6BD003F5180 /* Book.swift in Sources */,
+				C536C72D2DA0A13C003F5180 /* BadDiscountCalculator.swift in Sources */,
 				C536C6D12D9DF464003F5180 /* main.swift in Sources */,
 				C536C6DF2D9E0697003F5180 /* SalaryCalculator.swift in Sources */,
+				C536C7382DA0C747003F5180 /* Food.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
