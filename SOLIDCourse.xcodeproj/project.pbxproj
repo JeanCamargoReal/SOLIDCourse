@@ -19,6 +19,10 @@
 		C536C7362DA0C6F6003F5180 /* Electronic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C536C7352DA0C6F2003F5180 /* Electronic.swift */; };
 		C536C7382DA0C747003F5180 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = C536C7372DA0C745003F5180 /* Food.swift */; };
 		C536C73A2DA0C7CB003F5180 /* DiscountCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C536C7392DA0C7CA003F5180 /* DiscountCalculator.swift */; };
+		C5472EF22DA35C440072728A /* BadRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5472EF12DA35C400072728A /* BadRectangle.swift */; };
+		C5472EF42DA35CE40072728A /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5472EF32DA35CE20072728A /* Shape.swift */; };
+		C5472EF62DA35D000072728A /* Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5472EF52DA35CFC0072728A /* Rectangle.swift */; };
+		C5472EF82DA35D620072728A /* Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5472EF72DA35D5F0072728A /* Square.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -47,6 +51,10 @@
 		C536C7352DA0C6F2003F5180 /* Electronic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Electronic.swift; sourceTree = "<group>"; };
 		C536C7372DA0C745003F5180 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
 		C536C7392DA0C7CA003F5180 /* DiscountCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountCalculator.swift; sourceTree = "<group>"; };
+		C5472EF12DA35C400072728A /* BadRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadRectangle.swift; sourceTree = "<group>"; };
+		C5472EF32DA35CE20072728A /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
+		C5472EF52DA35CFC0072728A /* Rectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangle.swift; sourceTree = "<group>"; };
+		C5472EF72DA35D5F0072728A /* Square.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Square.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +118,8 @@
 		C536C6D42D9DF47B003F5180 /* LSP */ = {
 			isa = PBXGroup;
 			children = (
+				C5472EEF2DA2F3F60072728A /* Wrong */,
+				C5472EF02DA2F3FD0072728A /* Correct */,
 			);
 			path = LSP;
 			sourceTree = "<group>";
@@ -163,6 +173,24 @@
 				C536C7372DA0C745003F5180 /* Food.swift */,
 				C536C7352DA0C6F2003F5180 /* Electronic.swift */,
 				C536C7332DA0C6BA003F5180 /* Book.swift */,
+			);
+			path = Correct;
+			sourceTree = "<group>";
+		};
+		C5472EEF2DA2F3F60072728A /* Wrong */ = {
+			isa = PBXGroup;
+			children = (
+				C5472EF12DA35C400072728A /* BadRectangle.swift */,
+			);
+			path = Wrong;
+			sourceTree = "<group>";
+		};
+		C5472EF02DA2F3FD0072728A /* Correct */ = {
+			isa = PBXGroup;
+			children = (
+				C5472EF72DA35D5F0072728A /* Square.swift */,
+				C5472EF52DA35CFC0072728A /* Rectangle.swift */,
+				C5472EF32DA35CE20072728A /* Shape.swift */,
 			);
 			path = Correct;
 			sourceTree = "<group>";
@@ -228,16 +256,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5472EF62DA35D000072728A /* Rectangle.swift in Sources */,
 				C536C6E12D9E07B2003F5180 /* EmployeeRepository.swift in Sources */,
 				C536C6D82D9DF50A003F5180 /* BadEmployeeManager.swift in Sources */,
 				C536C6DD2D9E0373003F5180 /* Employee.swift in Sources */,
+				C5472EF42DA35CE40072728A /* Shape.swift in Sources */,
 				C536C7322DA0C672003F5180 /* Product.swift in Sources */,
 				C536C6E32D9E07D3003F5180 /* EmployeeReportGenerator.swift in Sources */,
 				C536C7362DA0C6F6003F5180 /* Electronic.swift in Sources */,
+				C5472EF82DA35D620072728A /* Square.swift in Sources */,
 				C536C73A2DA0C7CB003F5180 /* DiscountCalculator.swift in Sources */,
 				C536C7342DA0C6BD003F5180 /* Book.swift in Sources */,
 				C536C72D2DA0A13C003F5180 /* BadDiscountCalculator.swift in Sources */,
 				C536C6D12D9DF464003F5180 /* main.swift in Sources */,
+				C5472EF22DA35C440072728A /* BadRectangle.swift in Sources */,
 				C536C6DF2D9E0697003F5180 /* SalaryCalculator.swift in Sources */,
 				C536C7382DA0C747003F5180 /* Food.swift in Sources */,
 			);
