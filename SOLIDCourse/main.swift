@@ -59,3 +59,23 @@ let shapes: [Shape] = [
 for shape in shapes {
     print("Área \(shape.area)")
 }
+
+print("// --------------------------------------------------")
+
+// MARK: ISP
+print(">>>>>>>>ISP<<<<<<<<")
+
+let car = Car()
+let plane = Airplane()
+
+let drivable: [Drivable] = [car, plane]
+
+for vehicle in drivable {
+    vehicle.drive()
+}
+
+// Voar só está disponível para Flyable:
+let flyable: [Flyable] = [plane]
+for vehicle in flyable {
+    vehicle.fly()
+}

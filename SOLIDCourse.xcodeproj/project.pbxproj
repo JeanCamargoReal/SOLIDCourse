@@ -23,6 +23,8 @@
 		C5472EF42DA35CE40072728A /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5472EF32DA35CE20072728A /* Shape.swift */; };
 		C5472EF62DA35D000072728A /* Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5472EF52DA35CFC0072728A /* Rectangle.swift */; };
 		C5472EF82DA35D620072728A /* Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5472EF72DA35D5F0072728A /* Square.swift */; };
+		C5CDAC992DA4B971004A0CE6 /* BadExemple.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CDAC982DA4B96A004A0CE6 /* BadExemple.swift */; };
+		C5CDAC9D2DA4B9AE004A0CE6 /* CorrectExemple.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CDAC9C2DA4B9AA004A0CE6 /* CorrectExemple.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -55,6 +57,8 @@
 		C5472EF32DA35CE20072728A /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
 		C5472EF52DA35CFC0072728A /* Rectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangle.swift; sourceTree = "<group>"; };
 		C5472EF72DA35D5F0072728A /* Square.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Square.swift; sourceTree = "<group>"; };
+		C5CDAC982DA4B96A004A0CE6 /* BadExemple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadExemple.swift; sourceTree = "<group>"; };
+		C5CDAC9C2DA4B9AA004A0CE6 /* CorrectExemple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorrectExemple.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +131,8 @@
 		C536C6D52D9DF482003F5180 /* ISP */ = {
 			isa = PBXGroup;
 			children = (
+				C5CDAC972DA4B91B004A0CE6 /* Wrong */,
+				C5CDAC9B2DA4B995004A0CE6 /* Correct */,
 			);
 			path = ISP;
 			sourceTree = "<group>";
@@ -195,6 +201,22 @@
 			path = Correct;
 			sourceTree = "<group>";
 		};
+		C5CDAC972DA4B91B004A0CE6 /* Wrong */ = {
+			isa = PBXGroup;
+			children = (
+				C5CDAC982DA4B96A004A0CE6 /* BadExemple.swift */,
+			);
+			path = Wrong;
+			sourceTree = "<group>";
+		};
+		C5CDAC9B2DA4B995004A0CE6 /* Correct */ = {
+			isa = PBXGroup;
+			children = (
+				C5CDAC9C2DA4B9AA004A0CE6 /* CorrectExemple.swift */,
+			);
+			path = Correct;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -259,6 +281,7 @@
 				C5472EF62DA35D000072728A /* Rectangle.swift in Sources */,
 				C536C6E12D9E07B2003F5180 /* EmployeeRepository.swift in Sources */,
 				C536C6D82D9DF50A003F5180 /* BadEmployeeManager.swift in Sources */,
+				C5CDAC992DA4B971004A0CE6 /* BadExemple.swift in Sources */,
 				C536C6DD2D9E0373003F5180 /* Employee.swift in Sources */,
 				C5472EF42DA35CE40072728A /* Shape.swift in Sources */,
 				C536C7322DA0C672003F5180 /* Product.swift in Sources */,
@@ -270,6 +293,7 @@
 				C536C72D2DA0A13C003F5180 /* BadDiscountCalculator.swift in Sources */,
 				C536C6D12D9DF464003F5180 /* main.swift in Sources */,
 				C5472EF22DA35C440072728A /* BadRectangle.swift in Sources */,
+				C5CDAC9D2DA4B9AE004A0CE6 /* CorrectExemple.swift in Sources */,
 				C536C6DF2D9E0697003F5180 /* SalaryCalculator.swift in Sources */,
 				C536C7382DA0C747003F5180 /* Food.swift in Sources */,
 			);
