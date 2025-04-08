@@ -79,3 +79,13 @@ let flyable: [Flyable] = [plane]
 for vehicle in flyable {
     vehicle.fly()
 }
+
+print("// --------------------------------------------------")
+
+// MARK: DIP
+print(">>>>>>>>DIP<<<<<<<<")
+
+let repositoryDIP = InMemoryUserRepository()
+let service = UserServiceDIP(repository: repositoryDIP)
+
+service.register(name: "Carlos")

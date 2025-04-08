@@ -25,6 +25,11 @@
 		C5472EF82DA35D620072728A /* Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5472EF72DA35D5F0072728A /* Square.swift */; };
 		C5CDAC992DA4B971004A0CE6 /* BadExemple.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CDAC982DA4B96A004A0CE6 /* BadExemple.swift */; };
 		C5CDAC9D2DA4B9AE004A0CE6 /* CorrectExemple.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CDAC9C2DA4B9AA004A0CE6 /* CorrectExemple.swift */; };
+		C5CDACA12DA4BD0F004A0CE6 /* WrongUserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CDACA02DA4BD04004A0CE6 /* WrongUserService.swift */; };
+		C5CDACA32DA4BD76004A0CE6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CDACA22DA4BD75004A0CE6 /* User.swift */; };
+		C5CDACA52DA4BD8C004A0CE6 /* UserRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CDACA42DA4BD83004A0CE6 /* UserRepositoryProtocol.swift */; };
+		C5CDACA72DA4BDA3004A0CE6 /* InMemoryUserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CDACA62DA4BD9F004A0CE6 /* InMemoryUserRepository.swift */; };
+		C5CDACA92DA4BDD3004A0CE6 /* UserServiceDIP.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CDACA82DA4BDD2004A0CE6 /* UserServiceDIP.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -59,6 +64,11 @@
 		C5472EF72DA35D5F0072728A /* Square.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Square.swift; sourceTree = "<group>"; };
 		C5CDAC982DA4B96A004A0CE6 /* BadExemple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadExemple.swift; sourceTree = "<group>"; };
 		C5CDAC9C2DA4B9AA004A0CE6 /* CorrectExemple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorrectExemple.swift; sourceTree = "<group>"; };
+		C5CDACA02DA4BD04004A0CE6 /* WrongUserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrongUserService.swift; sourceTree = "<group>"; };
+		C5CDACA22DA4BD75004A0CE6 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C5CDACA42DA4BD83004A0CE6 /* UserRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepositoryProtocol.swift; sourceTree = "<group>"; };
+		C5CDACA62DA4BD9F004A0CE6 /* InMemoryUserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InMemoryUserRepository.swift; sourceTree = "<group>"; };
+		C5CDACA82DA4BDD2004A0CE6 /* UserServiceDIP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserServiceDIP.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +150,8 @@
 		C536C6D62D9DF48A003F5180 /* DIP */ = {
 			isa = PBXGroup;
 			children = (
+				C5CDAC9E2DA4BC9F004A0CE6 /* Wrong */,
+				C5CDAC9F2DA4BCA9004A0CE6 /* Correct */,
 			);
 			path = DIP;
 			sourceTree = "<group>";
@@ -217,6 +229,25 @@
 			path = Correct;
 			sourceTree = "<group>";
 		};
+		C5CDAC9E2DA4BC9F004A0CE6 /* Wrong */ = {
+			isa = PBXGroup;
+			children = (
+				C5CDACA02DA4BD04004A0CE6 /* WrongUserService.swift */,
+			);
+			path = Wrong;
+			sourceTree = "<group>";
+		};
+		C5CDAC9F2DA4BCA9004A0CE6 /* Correct */ = {
+			isa = PBXGroup;
+			children = (
+				C5CDACA82DA4BDD2004A0CE6 /* UserServiceDIP.swift */,
+				C5CDACA62DA4BD9F004A0CE6 /* InMemoryUserRepository.swift */,
+				C5CDACA42DA4BD83004A0CE6 /* UserRepositoryProtocol.swift */,
+				C5CDACA22DA4BD75004A0CE6 /* User.swift */,
+			);
+			path = Correct;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -280,16 +311,21 @@
 			files = (
 				C5472EF62DA35D000072728A /* Rectangle.swift in Sources */,
 				C536C6E12D9E07B2003F5180 /* EmployeeRepository.swift in Sources */,
+				C5CDACA72DA4BDA3004A0CE6 /* InMemoryUserRepository.swift in Sources */,
 				C536C6D82D9DF50A003F5180 /* BadEmployeeManager.swift in Sources */,
 				C5CDAC992DA4B971004A0CE6 /* BadExemple.swift in Sources */,
 				C536C6DD2D9E0373003F5180 /* Employee.swift in Sources */,
 				C5472EF42DA35CE40072728A /* Shape.swift in Sources */,
+				C5CDACA92DA4BDD3004A0CE6 /* UserServiceDIP.swift in Sources */,
 				C536C7322DA0C672003F5180 /* Product.swift in Sources */,
 				C536C6E32D9E07D3003F5180 /* EmployeeReportGenerator.swift in Sources */,
+				C5CDACA32DA4BD76004A0CE6 /* User.swift in Sources */,
 				C536C7362DA0C6F6003F5180 /* Electronic.swift in Sources */,
 				C5472EF82DA35D620072728A /* Square.swift in Sources */,
 				C536C73A2DA0C7CB003F5180 /* DiscountCalculator.swift in Sources */,
 				C536C7342DA0C6BD003F5180 /* Book.swift in Sources */,
+				C5CDACA12DA4BD0F004A0CE6 /* WrongUserService.swift in Sources */,
+				C5CDACA52DA4BD8C004A0CE6 /* UserRepositoryProtocol.swift in Sources */,
 				C536C72D2DA0A13C003F5180 /* BadDiscountCalculator.swift in Sources */,
 				C536C6D12D9DF464003F5180 /* main.swift in Sources */,
 				C5472EF22DA35C440072728A /* BadRectangle.swift in Sources */,
